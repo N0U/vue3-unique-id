@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Component and HTML unique id generation plugin for Vue3",
   "main": "dist/plugin.js",
-  "types": "types/index.d.ts",
+  "types": "dist/plugin.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "tsc --outDir dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
