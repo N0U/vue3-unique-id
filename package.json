@@ -4,16 +4,17 @@
   "description": "Component and HTML unique id generation plugin for Vue3",
   "main": "./dist/plugin.js",
   "module": "./dist/plugin.js",
-  "types": "./dist/plugin.d.ts",
+  "types": "./types/plugin.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/plugin.d.ts",
+      "types": "./types/plugin.d.ts",
       "import": "./dist/plugin.js"
     }
   },
   "sideEffects": false,
   "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "scripts": {
     "build": "tsc --outDir dist/",
@@ -34,10 +35,11 @@
     "url": "https://github.com/N0U/vue3-unique-id/issues"
   },
   "homepage": "https://github.com/N0U/vue3-unique-id#readme",
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.5.27"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vue": "^3.5.27"
   }
 }
