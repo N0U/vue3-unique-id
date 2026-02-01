@@ -2,7 +2,8 @@
   "name": "vue3-unique-id",
   "version": "1.0.0",
   "description": "Component and HTML unique id generation plugin for Vue3",
-  "main": "index.js",
+  "main": "dist/plugin.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "tsc --outDir dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +14,8 @@
   },
   "keywords": [
     "vue3",
-    "unique",
-    "id"
+    "vue-plugin",
+    "unique-id"
   ],
   "author": "banana_Ai",
   "license": "ISC",
