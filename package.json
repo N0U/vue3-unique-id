@@ -1,0 +1,31 @@
+{
+  "name": "vue3-unique-id",
+  "version": "1.0.0",
+  "description": "Component and HTML unique id generation plugin for Vue3",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0U/vue3-unique-id.git"
+  },
+  "keywords": [
+    "vue3",
+    "unique",
+    "id"
+  ],
+  "author": "banana_Ai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N0U/vue3-unique-id/issues"
+  },
+  "homepage": "https://github.com/N0U/vue3-unique-id#readme",
+  "dependencies": {
+    "vue": "^3.5.27"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
